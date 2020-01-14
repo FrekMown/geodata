@@ -1,0 +1,11 @@
+#Navbar {
+    background-color: rgb(8, 8, 94);
+    color: wheat;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar-title {
+    font-size: 2em;
+    margin: auto;
+}

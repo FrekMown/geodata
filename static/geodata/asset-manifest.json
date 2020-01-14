@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/geodata/static/css/main.6337bf77.chunk.css",
+    "main.js": "/static/geodata/static/js/main.12360e56.chunk.js",
+    "main.js.map": "/static/geodata/static/js/main.12360e56.chunk.js.map",
+    "runtime~main.js": "/static/geodata/static/js/runtime~main.8261a743.js",
+    "runtime~main.js.map": "/static/geodata/static/js/runtime~main.8261a743.js.map",
+    "static/js/2.af1cea39.chunk.js": "/static/geodata/static/js/2.af1cea39.chunk.js",
+    "static/js/2.af1cea39.chunk.js.map": "/static/geodata/static/js/2.af1cea39.chunk.js.map",
+    "index.html": "/static/geodata/index.html",
+    "precache-manifest.a5a6c069cb7959d63949885b6be2b4ae.js": "/static/geodata/precache-manifest.a5a6c069cb7959d63949885b6be2b4ae.js",
+    "service-worker.js": "/static/geodata/service-worker.js",
+    "static/css/main.6337bf77.chunk.css.map": "/static/geodata/static/css/main.6337bf77.chunk.css.map"
+  }
+}

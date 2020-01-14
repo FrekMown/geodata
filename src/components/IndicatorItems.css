@@ -1,0 +1,55 @@
+/* Active Item */
+#IndicatorActiveItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+    font-size: 0.9em;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: azure;
+    min-width: 4vw;
+}
+
+#indicator-active-id {
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+#indicator-active-name {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#indicator-active-sourceNote {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+/* Inactive Item */
+#IndicatorInactiveItem {
+    border-bottom: 1px solid black;
+    margin: 10px;
+    padding: 3px 10px;
+    font-size: 0.9em;
+    width: 20vw;
+}
+
+#IndicatorInactiveItem:hover {
+    cursor: pointer;
+    background-color: darkblue;
+    color: wheat;
+}
+
+#indicator-inactive-id {
+    
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+#indicator-inactive-name {
+    font-size: 1em;
+    font-weight: bold;
+}

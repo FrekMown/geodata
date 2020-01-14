@@ -1,0 +1,50 @@
+#Summary h3 {
+    text-align: center;
+}
+
+#summary-first-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+}
+
+#summary-title {
+    font-size: 1.3em;
+    flex: 1 1;
+    text-align: center;
+    margin-left: 5px;
+}
+
+#summary-close-button {
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+#summary-close-button:hover {
+    cursor: pointer;
+    background-color: lightcoral;
+}
+
+#summary-hidden {
+    display: flex;
+    align-items: center;
+    padding: 0.5vw;
+    background-color: rgb(216, 209, 209);
+    font-size: 1.2em;
+    height: 100%;
+    text-align: center;
+}
+
+#summary-hidden:hover {
+    background-color: gray;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#summary-countries {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

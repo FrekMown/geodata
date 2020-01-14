@@ -1,0 +1,33 @@
+#Plots {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#plots-title {
+    text-align: center;
+    font-size: 2em;
+}
+
+#plots-worldmap-form {
+    align-self: center; 
+}
+
+#plots-worldmap-form select{
+    font-weight: bold;
+    margin: 10px;
+}
+
+#plot-plotly {
+    flex: 1 1;
+    padding: 1px;
+    align-self: stretch;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.js-plotly-plot {
+    width: 100%;
+    height: 100%
+}

@@ -1,0 +1,82 @@
+/* General Layout */
+#Options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 5;
+    
+}
+
+#options-first-line {
+    display: flex;
+    justify-content: space-between;
+    align-self: stretch;
+    align-items: center;
+    padding: 2px;
+    flex: 0 0 2em;
+}
+
+#options-title {
+    font-size: 1.3em;
+    flex: 1 1;
+    text-align: center;
+    margin-right: 5px;
+}
+
+#options-close-button {
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+#options-close-button:hover {
+    cursor: pointer;
+    background-color: lightcoral;
+}
+
+#options-hidden {
+    padding: 0.5vw;
+    background-color: rgb(216, 209, 209);
+    font-size: 1.2em;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#options-hidden:hover {
+    background-color: gray;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Choose type */
+
+#options-form {
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+
+/* Countries */
+#options-select-subregion {
+    margin: 10px;
+}
+
+/* Indicators */
+#options-select-topic {
+    margin: 10px;
+}
+
+#options-topics-description {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: lightgray;
+    margin: 0 10px;
+    font-size: 0.7em;
+    font-style: italic;
+    padding: 5px;
+
+}
